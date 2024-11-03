@@ -88,3 +88,10 @@ palpages-bot-sirius/
 - **GigaChatAPI** - обращение к LLM GigaChat
 - **SQLite3** - база данных пользователей
 - **PyTelegramBotAPI** - обработка сообщений ботом
+
+## Контакты
+
+- Email: d.n.mukhin@yandex.ru
+- VK: [Дмитрий Мухин](https://vk.com/mukhin_d)
+- Telegram: [@d_n_mukhin](https://t.me/d_n_mukhin)
+
