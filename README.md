@@ -22,7 +22,7 @@ PalPages предлагает пользователям следующие фу
    ```bash
    git clone https://github.com/1toRyota/palpages-bot-sirius.git
    ```
-2. Передите в папку проекта:
+2. Перейдите в папку проекта:
    ```bash
    cd palpages-bot-sirius
    ```
