@@ -64,6 +64,20 @@ PalPages предлагает пользователям следующие фу
     - [x] Русский
     - [ ] Английский
 
+## Набор файлов
+palpages-bot-sirius/
+   ├── bot_for_additional_task.py
+   ├── bot_main.py
+   ├── database.py
+   ├── database_creating.py
+   ├── gigachat_request.py
+   ├── summarizer.py
+   ├── text.txt
+   ├── user_data.db
+   ├── requirements.txt
+   └── README.md
+
+
 ## Технологии
 Далее описаны технологии, используемые в проекте
 
