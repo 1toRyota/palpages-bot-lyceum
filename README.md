@@ -1,4 +1,9 @@
 # PalPages
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
 PalPages — это Telegram-бот, который упрощает работу с литературными произведениями. Он помогает сокращать фрагменты произведений, давать ответы на вопросы и создавать тесты по прочитанному. Главной фишкой PalPages является функция "Эхо автора", которая позволяет пользователю пообщаться с авторами произведений с помощью ИИ.  
 ## Демо
@@ -53,3 +58,7 @@ PalPages предлагает пользователям следующие фу
    ```bash
    python3 bot_for_additional_task.py
    ```
+
+## Технологии
+Далее описаны технологии, используемые в проекте
+
