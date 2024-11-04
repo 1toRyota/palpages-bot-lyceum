@@ -597,7 +597,7 @@ def file_summarizing(message):
         downloaded_file = bot.download_file(file_info.file_path)
 
         # Сохраняем файл
-        src = "F:/PalPages/text.txt"
+        src = "text.txt"
         with open(src, "wb+") as txt_file:
             txt_file.write(downloaded_file)
 

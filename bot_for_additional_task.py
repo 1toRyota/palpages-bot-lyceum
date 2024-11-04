@@ -111,7 +111,7 @@ def file_summarizing(message):
         file_info = bot.get_file(message.document.file_id)
         downloaded_file = bot.download_file(file_info.file_path)
 
-        src = "F:/PalPages/text.txt"
+        src = "text.txt"
         with open(src, "wb+") as txt_file:
             txt_file.write(downloaded_file)
         with open(src, "r", encoding="utf-8") as text_file:
