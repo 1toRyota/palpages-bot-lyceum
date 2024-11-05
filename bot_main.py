@@ -639,8 +639,10 @@ def file_summarizing(message):
 try:
     bot.polling(none_stop=True)
 except telebot.apihelper.ApiTelegramException:
+    # Перезапуск бота в случае ошибки 502
     bot.polling(none_stop=True)
 except Exception as error:
+    # Запись логов в случае ошибки
     print(error)
 finally:
     # Закрытие подключения к базе данных при завершении работы
