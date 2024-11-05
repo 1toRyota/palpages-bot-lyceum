@@ -638,7 +638,7 @@ def file_summarizing(message):
 # Запуск бота
 try:
     bot.polling(none_stop=True)
-except TimeoutError:
+except telebot.apihelper.ApiTelegramException:
     bot.polling(none_stop=True)
 except Exception as error:
     print(error)
