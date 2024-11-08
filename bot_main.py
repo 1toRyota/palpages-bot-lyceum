@@ -215,7 +215,7 @@ def func(message):
         db.set_is_text_from_message(message.chat.id, True)
         db.set_is_choosing_summarizing_level(message.chat.id, True)
 
-        # Запрос уровня сжатия текста
+        # Кнопки для выбора уровня сжатия текста
         markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
         btn1 = types.KeyboardButton("Стандартный")
         btn2 = types.KeyboardButton("Сильный")
@@ -241,7 +241,7 @@ def func(message):
         db.update_summarizing_level(message.chat.id, 1)
         db.set_is_choosing_summarizing_level(message.chat.id, False)
 
-        # Определение типа текста (файл или сообщение) для дальнейшей обработки
+        # Определение типа текста (файл или сообщение) для ответного сообщения
         if db.get_is_text_from_file(message.chat.id):
             message_type = "файл"
         elif db.get_is_text_from_message(message.chat.id):

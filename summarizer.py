@@ -1,8 +1,9 @@
 from openai import OpenAI
 
-client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")
+client = OpenAI(base_url="http://localhost:1234/v1", api_key="lm-studio")  # Подключение к локальному серверу с LLM
 
 
+# Функция для сильного сжатия текста
 def generate_std(message_text):
     completion = client.chat.completions.create(
         model="gemma-2-9b",
@@ -20,6 +21,7 @@ def generate_std(message_text):
     return completion.choices[0].message.content
 
 
+# Функция для сильного сжатия текста
 def generate_short(message_text):
     completion = client.chat.completions.create(
         model="gemma-2-9b",
